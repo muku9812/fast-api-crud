@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Anil\FastApiCrud\Concerns;
+namespace Muku9812\FastApiCrud\Concerns;
 
 use Exception;
 use Illuminate\Database\Eloquent\Model;

@@ -1,13 +1,13 @@
 # HasApiResponse Trait
 
-`Anil\FastApiCrud\Concerns\HasApiResponse`
+`Muku9812\FastApiCrud\Concerns\HasApiResponse`
 
 Provides JSON response helpers for every HTTP status code. Used by `BaseController`. Can be used standalone in any controller.
 
 ## Usage
 
 ```php
-use Anil\FastApiCrud\Concerns\HasApiResponse;
+use Muku9812\FastApiCrud\Concerns\HasApiResponse;
 
 class MyController extends Controller
 {

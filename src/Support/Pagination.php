@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Anil\FastApiCrud\Support;
+namespace Muku9812\FastApiCrud\Support;
 
 /**
  * Static helpers for resolving pagination configuration from config and request.

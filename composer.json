@@ -82,5 +82,10 @@
     "lint": "vendor/bin/pint",
     "test": "vendor/bin/pest --parallel",
     "test-coverage": "vendor/bin/pest --coverage"
-  }
+  },
+  "repositories": [{
+    "name": "local",
+    "type": "path",
+    "url": "../anil-package-muku/fast-api-crud"
+  }]
 }

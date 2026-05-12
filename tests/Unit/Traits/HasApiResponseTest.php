@@ -1,6 +1,6 @@
 <?php
 
-use Anil\FastApiCrud\Concerns\HasApiResponse;
+use Muku9812\FastApiCrud\Concerns\HasApiResponse;
 use Illuminate\Http\JsonResponse;
 use Symfony\Component\HttpFoundation\Response as ResponseAlias;
 

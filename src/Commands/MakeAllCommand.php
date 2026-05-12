@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Anil\FastApiCrud\Commands;
+namespace Muku9812\FastApiCrud\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
@@ -85,7 +85,7 @@ class MakeAllCommand extends Command
 
         namespace App\Http\Controllers;
 
-        use Anil\FastApiCrud\Http\Controllers\BaseController;
+        use Muku9812\FastApiCrud\Http\Controllers\BaseController;
         use App\Http\Requests\\{$modelName}\Store{$modelName}Request;
         use App\Http\Requests\\{$modelName}\Update{$modelName}Request;
         use App\Http\Resources\\{$modelName}\\{$modelName}Resource;
@@ -120,7 +120,7 @@ class MakeAllCommand extends Command
 
         namespace App\Http\Controllers;
 
-        use Anil\FastApiCrud\Http\Controllers\BaseWebController;
+        use Muku9812\FastApiCrud\Http\Controllers\BaseWebController;
         use App\Http\Requests\\{$modelName}\Store{$modelName}Request;
         use App\Http\Requests\\{$modelName}\Update{$modelName}Request;
         use App\Models\\{$modelName};

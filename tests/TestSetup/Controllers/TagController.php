@@ -1,12 +1,12 @@
 <?php
 
-namespace Anil\FastApiCrud\Tests\TestSetup\Controllers;
+namespace Muku9812\FastApiCrud\Tests\TestSetup\Controllers;
 
-use Anil\FastApiCrud\Http\Controllers\BaseController;
-use Anil\FastApiCrud\Tests\TestSetup\Models\TagModel;
-use Anil\FastApiCrud\Tests\TestSetup\Requests\Tag\StoreTagRequest;
-use Anil\FastApiCrud\Tests\TestSetup\Requests\Tag\UpdateTagRequest;
-use Anil\FastApiCrud\Tests\TestSetup\Resources\TagResource;
+use Muku9812\FastApiCrud\Http\Controllers\BaseController;
+use Muku9812\FastApiCrud\Tests\TestSetup\Models\TagModel;
+use Muku9812\FastApiCrud\Tests\TestSetup\Requests\Tag\StoreTagRequest;
+use Muku9812\FastApiCrud\Tests\TestSetup\Requests\Tag\UpdateTagRequest;
+use Muku9812\FastApiCrud\Tests\TestSetup\Resources\TagResource;
 use Exception;
 
 class TagController extends BaseController

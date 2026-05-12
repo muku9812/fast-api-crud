@@ -1,6 +1,6 @@
 <?php
 
-namespace Anil\FastApiCrud\Tests\TestSetup\Requests\User;
+namespace Muku9812\FastApiCrud\Tests\TestSetup\Requests\User;
 
 use Illuminate\Foundation\Http\FormRequest;
 

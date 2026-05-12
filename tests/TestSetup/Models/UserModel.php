@@ -1,8 +1,8 @@
 <?php
 
-namespace Anil\FastApiCrud\Tests\TestSetup\Models;
+namespace Muku9812\FastApiCrud\Tests\TestSetup\Models;
 
-use Anil\FastApiCrud\Tests\TestSetup\Factories\UserModelFactory;
+use Muku9812\FastApiCrud\Tests\TestSetup\Factories\UserModelFactory;
 use Illuminate\Database\Eloquent\Attributes\Scope;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;

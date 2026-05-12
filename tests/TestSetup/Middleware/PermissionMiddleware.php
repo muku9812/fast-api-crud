@@ -1,8 +1,8 @@
 <?php
 
-namespace Anil\FastApiCrud\Tests\TestSetup\Middleware;
+namespace Muku9812\FastApiCrud\Tests\TestSetup\Middleware;
 
-use Anil\FastApiCrud\Tests\TestSetup\Models\UserModel;
+use Muku9812\FastApiCrud\Tests\TestSetup\Models\UserModel;
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;

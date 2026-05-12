@@ -1,6 +1,6 @@
 <?php
 
-namespace Anil\FastApiCrud\Tests\TestSetup\Requests\Tag;
+namespace Muku9812\FastApiCrud\Tests\TestSetup\Requests\Tag;
 
 use Illuminate\Foundation\Http\FormRequest;
 

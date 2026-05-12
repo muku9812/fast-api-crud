@@ -7,7 +7,7 @@ Traits you can add to your Eloquent models for extra functionality.
 Adds 14 query scopes for common date ranges. All accept an optional `$column` parameter (default: `created_at`).
 
 ```php
-use Anil\FastApiCrud\Concerns\HasDateScopes;
+use Muku9812\FastApiCrud\Concerns\HasDateScopes;
 
 class Post extends Model
 {
@@ -77,7 +77,7 @@ GET /posts?filters={"date":"2025-01-01 to 2025-01-31"}
 Automatically assigns UUID v4 as the primary key on model creation.
 
 ```php
-use Anil\FastApiCrud\Concerns\HasUuidPrimaryKey;
+use Muku9812\FastApiCrud\Concerns\HasUuidPrimaryKey;
 
 class Post extends Model
 {
@@ -115,7 +115,7 @@ You can also set a UUID manually — the trait only assigns one if the key is em
 Anonymizes unique column values on soft delete to prevent constraint violations.
 
 ```php
-use Anil\FastApiCrud\Concerns\AnonymizesOnDelete;
+use Muku9812\FastApiCrud\Concerns\AnonymizesOnDelete;
 
 class User extends Model
 {
@@ -146,7 +146,7 @@ This prevents unique constraint violations when creating a new record with the s
 Replicate a model along with all its loaded relations.
 
 ```php
-use Anil\FastApiCrud\Concerns\ReplicatesWithRelations;
+use Muku9812\FastApiCrud\Concerns\ReplicatesWithRelations;
 
 class Post extends Model
 {

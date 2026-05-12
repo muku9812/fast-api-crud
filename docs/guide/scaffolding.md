@@ -60,7 +60,7 @@ With `--web`, also generates:
 
 namespace App\Http\Controllers;
 
-use Anil\FastApiCrud\Http\Controllers\BaseController;
+use Muku9812\FastApiCrud\Http\Controllers\BaseController;
 use App\Http\Requests\Post\StorePostRequest;
 use App\Http\Requests\Post\UpdatePostRequest;
 use App\Http\Resources\Post\PostResource;
@@ -87,7 +87,7 @@ class PostController extends BaseController
 
 namespace App\Http\Controllers;
 
-use Anil\FastApiCrud\Http\Controllers\BaseWebController;
+use Muku9812\FastApiCrud\Http\Controllers\BaseWebController;
 use App\Http\Requests\Post\StorePostRequest;
 use App\Http\Requests\Post\UpdatePostRequest;
 use App\Models\Post;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Anil\FastApiCrud\Macros;
+namespace Muku9812\FastApiCrud\Macros;
 
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Pagination\LengthAwarePaginator;

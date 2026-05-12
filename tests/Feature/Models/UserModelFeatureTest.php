@@ -1,7 +1,7 @@
 <?php
 
-use Anil\FastApiCrud\Tests\TestSetup\Models\PostModel;
-use Anil\FastApiCrud\Tests\TestSetup\Models\UserModel;
+use Muku9812\FastApiCrud\Tests\TestSetup\Models\PostModel;
+use Muku9812\FastApiCrud\Tests\TestSetup\Models\UserModel;
 
 describe(description: 'user_model_feature_test', tests: function () {
     it(description: 'can_create_a_user', closure: function () {

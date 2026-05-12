@@ -1,7 +1,7 @@
 <?php
 
-use Anil\FastApiCrud\Tests\TestSetup\Models\PostModel;
-use Anil\FastApiCrud\Tests\TestSetup\Models\UserModel;
+use Muku9812\FastApiCrud\Tests\TestSetup\Models\PostModel;
+use Muku9812\FastApiCrud\Tests\TestSetup\Models\UserModel;
 use Illuminate\Database\Eloquent\Attributes\Scope;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Pagination\Paginator;

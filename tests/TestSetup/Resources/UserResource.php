@@ -1,8 +1,8 @@
 <?php
 
-namespace Anil\FastApiCrud\Tests\TestSetup\Resources;
+namespace Muku9812\FastApiCrud\Tests\TestSetup\Resources;
 
-use Anil\FastApiCrud\Tests\TestSetup\Models\UserModel;
+use Muku9812\FastApiCrud\Tests\TestSetup\Models\UserModel;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Carbon;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Anil\FastApiCrud\Tests\TestSetup\Factories;
+namespace Muku9812\FastApiCrud\Tests\TestSetup\Factories;
 
-use Anil\FastApiCrud\Tests\TestSetup\Models\TagModel;
+use Muku9812\FastApiCrud\Tests\TestSetup\Models\TagModel;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**

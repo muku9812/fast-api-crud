@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Anil\FastApiCrud\Concerns;
+namespace Muku9812\FastApiCrud\Concerns;
 
-use Anil\FastApiCrud\Contracts\HasPermissionSlug;
-use Anil\FastApiCrud\Contracts\Searchable;
-use Anil\FastApiCrud\Enums\CrudAction;
-use Anil\FastApiCrud\Enums\PaginationType;
+use Muku9812\FastApiCrud\Contracts\HasPermissionSlug;
+use Muku9812\FastApiCrud\Contracts\Searchable;
+use Muku9812\FastApiCrud\Enums\CrudAction;
+use Muku9812\FastApiCrud\Enums\PaginationType;
 use Exception;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;

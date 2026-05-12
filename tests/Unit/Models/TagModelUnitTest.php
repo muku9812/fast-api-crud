@@ -1,7 +1,7 @@
 <?php
 
-use Anil\FastApiCrud\Tests\TestSetup\Models\PostModel;
-use Anil\FastApiCrud\Tests\TestSetup\Models\TagModel;
+use Muku9812\FastApiCrud\Tests\TestSetup\Models\PostModel;
+use Muku9812\FastApiCrud\Tests\TestSetup\Models\TagModel;
 use Illuminate\Support\Facades\Schema;
 
 describe(description: 'tag_model_class_test1', tests: function () {

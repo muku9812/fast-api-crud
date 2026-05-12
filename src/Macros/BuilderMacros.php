@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Anil\FastApiCrud\Macros;
+namespace Muku9812\FastApiCrud\Macros;
 
-use Anil\FastApiCrud\Contracts\Sortable;
-use Anil\FastApiCrud\Support\Pagination;
+use Muku9812\FastApiCrud\Contracts\Sortable;
+use Muku9812\FastApiCrud\Support\Pagination;
 use Closure;
 use Illuminate\Contracts\Pagination\CursorPaginator;
 use Illuminate\Contracts\Pagination\Paginator;

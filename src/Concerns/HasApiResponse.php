@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Anil\FastApiCrud\Concerns;
+namespace Muku9812\FastApiCrud\Concerns;
 
 use Illuminate\Http\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;

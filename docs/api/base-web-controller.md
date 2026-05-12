@@ -1,6 +1,6 @@
 # BaseWebController
 
-`Anil\FastApiCrud\Http\Controllers\BaseWebController`
+`Muku9812\FastApiCrud\Http\Controllers\BaseWebController`
 
 Abstract controller for Blade/web endpoints. Uses `AuthorizesRequests` and `HasCrudOperations` traits.
 

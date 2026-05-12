@@ -107,7 +107,7 @@ protected array $withAggregate = [
 ## Pagination Types
 
 ```php
-use Anil\FastApiCrud\Enums\PaginationType;
+use Muku9812\FastApiCrud\Enums\PaginationType;
 
 protected PaginationType $paginationType = PaginationType::LengthAware; // Default
 protected PaginationType $paginationType = PaginationType::Simple;      // No total count

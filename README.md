@@ -152,7 +152,7 @@ For JSON API endpoints. Returns `JsonResponse`, `JsonResource`, and `AnonymousRe
 ### Constructor
 
 ```php
-use Anil\FastApiCrud\Http\Controllers\BaseController;
+use Muku9812\FastApiCrud\Http\Controllers\BaseController;
 
 class PostController extends BaseController
 {
@@ -292,7 +292,7 @@ For Blade/web applications. Returns `View` and `RedirectResponse` with flash mes
 ### Constructor
 
 ```php
-use Anil\FastApiCrud\Http\Controllers\BaseWebController;
+use Muku9812\FastApiCrud\Http\Controllers\BaseWebController;
 
 class PostController extends BaseWebController
 {
@@ -681,7 +681,7 @@ class PostController extends BaseController
 Enables automatic LIKE search on `?search=` query parameter.
 
 ```php
-use Anil\FastApiCrud\Contracts\Searchable;
+use Muku9812\FastApiCrud\Contracts\Searchable;
 
 class Post extends Model implements Searchable
 {
@@ -705,7 +705,7 @@ Generates: `WHERE (name LIKE '%laravel%' OR desc LIKE '%laravel%' OR EXISTS (SEL
 Provides default sort configuration when no `sortBy` query parameter is given.
 
 ```php
-use Anil\FastApiCrud\Contracts\Sortable;
+use Muku9812\FastApiCrud\Contracts\Sortable;
 
 class Post extends Model implements Sortable
 {
@@ -724,7 +724,7 @@ class Post extends Model implements Sortable
 Enables automatic Spatie permission middleware registration.
 
 ```php
-use Anil\FastApiCrud\Contracts\HasPermissionSlug;
+use Muku9812\FastApiCrud\Contracts\HasPermissionSlug;
 
 class Post extends Model implements HasPermissionSlug
 {
@@ -755,7 +755,7 @@ This automatically registers middleware:
 Adds query scopes for common date ranges. All accept an optional `$column` parameter (default: `created_at`).
 
 ```php
-use Anil\FastApiCrud\Concerns\HasDateScopes;
+use Muku9812\FastApiCrud\Concerns\HasDateScopes;
 
 class Post extends Model
 {
@@ -791,7 +791,7 @@ Post::query()->lastMonth('updated_at');
 Automatically assigns UUID v4 as primary key on model creation.
 
 ```php
-use Anil\FastApiCrud\Concerns\HasUuidPrimaryKey;
+use Muku9812\FastApiCrud\Concerns\HasUuidPrimaryKey;
 
 class Post extends Model
 {
@@ -808,7 +808,7 @@ class Post extends Model
 Anonymizes unique column values on soft delete to prevent constraint violations.
 
 ```php
-use Anil\FastApiCrud\Concerns\AnonymizesOnDelete;
+use Muku9812\FastApiCrud\Concerns\AnonymizesOnDelete;
 
 class User extends Model
 {
@@ -829,7 +829,7 @@ This prevents conflicts when creating a new user with `john@example.com` while t
 Replicate a model along with all its loaded relations.
 
 ```php
-use Anil\FastApiCrud\Concerns\ReplicatesWithRelations;
+use Muku9812\FastApiCrud\Concerns\ReplicatesWithRelations;
 
 class Post extends Model
 {
@@ -1001,7 +1001,7 @@ $paginated = $items->paginate(perPage: 5, total: 100);
 The `HasApiResponse` trait (used by `BaseController`) provides response helpers for every HTTP status code. You can also use it in any controller:
 
 ```php
-use Anil\FastApiCrud\Concerns\HasApiResponse;
+use Muku9812\FastApiCrud\Concerns\HasApiResponse;
 
 class MyController extends Controller
 {
@@ -1259,7 +1259,7 @@ databaseClasses(?string $directory = null, array $excluding = []): array
 Custom exception that renders as JSON with debug info in development.
 
 ```php
-use Anil\FastApiCrud\Exceptions\ApiException;
+use Muku9812\FastApiCrud\Exceptions\ApiException;
 
 throw new ApiException('Resource not found', 404);
 ```
@@ -1368,10 +1368,10 @@ Route::post('posts/{id}/force-delete', [PostController::class, 'permanentDelete'
 
 ## Pagination Utility
 
-The `Anil\FastApiCrud\Support\Pagination` class provides static helpers used internally by the macros. You can also use them directly:
+The `Muku9812\FastApiCrud\Support\Pagination` class provides static helpers used internally by the macros. You can also use them directly:
 
 ```php
-use Anil\FastApiCrud\Support\Pagination;
+use Muku9812\FastApiCrud\Support\Pagination;
 
 Pagination::defaultPerPage();       // 15 (from config)
 Pagination::maxPerPage();           // 100 (from config)
@@ -1390,7 +1390,7 @@ Pagination::configBool('fast-api.pagination.allow_all', true);       // bool
 ### PaginationType
 
 ```php
-use Anil\FastApiCrud\Enums\PaginationType;
+use Muku9812\FastApiCrud\Enums\PaginationType;
 
 PaginationType::LengthAware  // 'length-aware' — Standard pagination with total count
 PaginationType::Simple        // 'simple'       — Simple pagination without total
@@ -1403,7 +1403,7 @@ PaginationType::None          // 'none'         — No pagination, returns all r
 Used for permission middleware registration.
 
 ```php
-use Anil\FastApiCrud\Enums\CrudAction;
+use Muku9812\FastApiCrud\Enums\CrudAction;
 
 CrudAction::View          // 'view'
 CrudAction::Store         // 'store'
@@ -1422,11 +1422,11 @@ CrudAction::Restore       // 'restore'
 ```php
 namespace App\Models;
 
-use Anil\FastApiCrud\Concerns\HasDateScopes;
-use Anil\FastApiCrud\Concerns\AnonymizesOnDelete;
-use Anil\FastApiCrud\Contracts\HasPermissionSlug;
-use Anil\FastApiCrud\Contracts\Searchable;
-use Anil\FastApiCrud\Contracts\Sortable;
+use Muku9812\FastApiCrud\Concerns\HasDateScopes;
+use Muku9812\FastApiCrud\Concerns\AnonymizesOnDelete;
+use Muku9812\FastApiCrud\Contracts\HasPermissionSlug;
+use Muku9812\FastApiCrud\Contracts\Searchable;
+use Muku9812\FastApiCrud\Contracts\Sortable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
@@ -1495,8 +1495,8 @@ class Post extends Model implements Searchable, Sortable, HasPermissionSlug
 ```php
 namespace App\Http\Controllers\Api;
 
-use Anil\FastApiCrud\Enums\PaginationType;
-use Anil\FastApiCrud\Http\Controllers\BaseController;
+use Muku9812\FastApiCrud\Enums\PaginationType;
+use Muku9812\FastApiCrud\Http\Controllers\BaseController;
 use App\Http\Requests\Post\StorePostRequest;
 use App\Http\Requests\Post\UpdatePostRequest;
 use App\Http\Resources\Post\PostResource;
@@ -1528,7 +1528,7 @@ class PostController extends BaseController
 ```php
 namespace App\Http\Controllers\Web;
 
-use Anil\FastApiCrud\Http\Controllers\BaseWebController;
+use Muku9812\FastApiCrud\Http\Controllers\BaseWebController;
 use App\Http\Requests\Post\StorePostRequest;
 use App\Http\Requests\Post\UpdatePostRequest;
 use App\Models\Post;

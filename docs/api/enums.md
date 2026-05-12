@@ -2,12 +2,12 @@
 
 ## PaginationType
 
-`Anil\FastApiCrud\Enums\PaginationType`
+`Muku9812\FastApiCrud\Enums\PaginationType`
 
 Controls the pagination strategy for index results.
 
 ```php
-use Anil\FastApiCrud\Enums\PaginationType;
+use Muku9812\FastApiCrud\Enums\PaginationType;
 ```
 
 | Case | Value | Description |
@@ -28,12 +28,12 @@ class PostController extends BaseController
 
 ## CrudAction
 
-`Anil\FastApiCrud\Enums\CrudAction`
+`Muku9812\FastApiCrud\Enums\CrudAction`
 
 Standard CRUD action names used for Spatie permission middleware registration.
 
 ```php
-use Anil\FastApiCrud\Enums\CrudAction;
+use Muku9812\FastApiCrud\Enums\CrudAction;
 ```
 
 | Case | Value | Applied To Routes |

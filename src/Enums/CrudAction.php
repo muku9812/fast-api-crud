@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Anil\FastApiCrud\Enums;
+namespace Muku9812\FastApiCrud\Enums;
 
 /**
  * Represents the standard CRUD actions used for

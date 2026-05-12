@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Anil\FastApiCrud\Http\Controllers;
+namespace Muku9812\FastApiCrud\Http\Controllers;
 
-use Anil\FastApiCrud\Concerns\HasCrudOperations;
+use Muku9812\FastApiCrud\Concerns\HasCrudOperations;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;

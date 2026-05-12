@@ -9,7 +9,7 @@ If your model implements `HasPermissionSlug` and `fast-api.permissions.enabled` 
 ### 1. Implement the interface
 
 ```php
-use Anil\FastApiCrud\Contracts\HasPermissionSlug;
+use Muku9812\FastApiCrud\Contracts\HasPermissionSlug;
 
 class Post extends Model implements HasPermissionSlug
 {
@@ -67,7 +67,7 @@ The `permissionMiddleware(string $slug)` method returns an `array<Middleware>` w
 Permission names use the `CrudAction` enum values:
 
 ```php
-use Anil\FastApiCrud\Enums\CrudAction;
+use Muku9812\FastApiCrud\Enums\CrudAction;
 
 CrudAction::View          // 'view'
 CrudAction::Store         // 'store'

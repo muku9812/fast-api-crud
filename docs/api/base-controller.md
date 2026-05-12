@@ -1,6 +1,6 @@
 # BaseController
 
-`Anil\FastApiCrud\Http\Controllers\BaseController`
+`Muku9812\FastApiCrud\Http\Controllers\BaseController`
 
 Abstract controller for JSON API endpoints. Uses `HasApiResponse`, `AuthorizesRequests`, and `HasCrudOperations` traits.
 

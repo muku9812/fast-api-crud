@@ -1,6 +1,6 @@
 <?php
 
-namespace Anil\FastApiCrud\Tests\TestSetup\Models;
+namespace Muku9812\FastApiCrud\Tests\TestSetup\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;

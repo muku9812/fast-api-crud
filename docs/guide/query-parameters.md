@@ -55,7 +55,7 @@ GET /posts?sortBy=created_at&descending=true
 If the model implements `Sortable`, its `sortByDefaults()` values are used when no sort params are provided:
 
 ```php
-use Anil\FastApiCrud\Contracts\Sortable;
+use Muku9812\FastApiCrud\Contracts\Sortable;
 
 class Post extends Model implements Sortable
 {
@@ -103,7 +103,7 @@ GET /posts?search=laravel
 If the model implements `Searchable`, a LIKE search runs across the columns returned by `searchableColumns()`:
 
 ```php
-use Anil\FastApiCrud\Contracts\Searchable;
+use Muku9812\FastApiCrud\Contracts\Searchable;
 
 class Post extends Model implements Searchable
 {

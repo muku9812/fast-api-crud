@@ -1,6 +1,6 @@
 # Pagination Utility
 
-`Anil\FastApiCrud\Support\Pagination`
+`Muku9812\FastApiCrud\Support\Pagination`
 
 Static helpers for resolving pagination configuration from config and request. Used internally by the builder macros; can also be used directly.
 
@@ -60,7 +60,7 @@ Get a config value as a boolean with a fallback default.
 ## Usage
 
 ```php
-use Anil\FastApiCrud\Support\Pagination;
+use Muku9812\FastApiCrud\Support\Pagination;
 
 // In a controller or service
 $perPage = Pagination::resolvePerPage();       // Effective per-page value

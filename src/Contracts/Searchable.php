@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Anil\FastApiCrud\Contracts;
+namespace Muku9812\FastApiCrud\Contracts;
 
 /**
  * Implement this interface on Eloquent models to enable

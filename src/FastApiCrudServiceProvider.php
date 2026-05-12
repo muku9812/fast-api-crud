@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Anil\FastApiCrud;
+namespace Muku9812\FastApiCrud;
 
-use Anil\FastApiCrud\Commands\MakeAllCommand;
-use Anil\FastApiCrud\Macros\BuilderMacros;
-use Anil\FastApiCrud\Macros\CollectionMacros;
+use Muku9812\FastApiCrud\Commands\MakeAllCommand;
+use Muku9812\FastApiCrud\Macros\BuilderMacros;
+use Muku9812\FastApiCrud\Macros\CollectionMacros;
 use Illuminate\Support\ServiceProvider;
 
 class FastApiCrudServiceProvider extends ServiceProvider

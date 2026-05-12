@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Anil\FastApiCrud\Exceptions;
+namespace Muku9812\FastApiCrud\Exceptions;
 
 use Exception;
 use Illuminate\Http\JsonResponse;

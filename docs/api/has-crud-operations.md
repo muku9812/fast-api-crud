@@ -1,6 +1,6 @@
 # HasCrudOperations Trait
 
-`Anil\FastApiCrud\Concerns\HasCrudOperations`
+`Muku9812\FastApiCrud\Concerns\HasCrudOperations`
 
 Shared CRUD query building, data operations, and lifecycle hooks. Used by both `BaseController` and `BaseWebController`.
 

@@ -7,7 +7,7 @@ Three interfaces your models can implement to unlock features automatically.
 Enables automatic LIKE search when `?search=` query parameter is present.
 
 ```php
-use Anil\FastApiCrud\Contracts\Searchable;
+use Muku9812\FastApiCrud\Contracts\Searchable;
 
 class Post extends Model implements Searchable
 {
@@ -49,7 +49,7 @@ If the search term is null or empty, the search is skipped entirely.
 Provides default sort configuration when no `?sortBy` query parameter is given.
 
 ```php
-use Anil\FastApiCrud\Contracts\Sortable;
+use Muku9812\FastApiCrud\Contracts\Sortable;
 
 class Post extends Model implements Sortable
 {
@@ -80,7 +80,7 @@ Without this interface, the default sort is `id` descending.
 Enables automatic Spatie permission middleware registration on CRUD actions.
 
 ```php
-use Anil\FastApiCrud\Contracts\HasPermissionSlug;
+use Muku9812\FastApiCrud\Contracts\HasPermissionSlug;
 
 class Post extends Model implements HasPermissionSlug
 {

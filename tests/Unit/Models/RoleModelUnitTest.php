@@ -2,10 +2,10 @@
 
 namespace Tests\Unit\Models;
 
-use Anil\FastApiCrud\Concerns\AnonymizesOnDelete;
-use Anil\FastApiCrud\Concerns\HasDateScopes;
-use Anil\FastApiCrud\Concerns\ReplicatesWithRelations;
-use Anil\FastApiCrud\Tests\TestSetup\Models\RoleModel;
+use Muku9812\FastApiCrud\Concerns\AnonymizesOnDelete;
+use Muku9812\FastApiCrud\Concerns\HasDateScopes;
+use Muku9812\FastApiCrud\Concerns\ReplicatesWithRelations;
+use Muku9812\FastApiCrud\Tests\TestSetup\Models\RoleModel;
 
 describe('RoleModelUnitTest', function () {
     it('has used traits', function () {

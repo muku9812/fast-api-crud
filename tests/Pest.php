@@ -1,6 +1,6 @@
 <?php
 
-use Anil\FastApiCrud\Tests\TestCase;
+use Muku9812\FastApiCrud\Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\DB;
 

@@ -2,14 +2,14 @@
 
 ## ApiException
 
-`Anil\FastApiCrud\Exceptions\ApiException`
+`Muku9812\FastApiCrud\Exceptions\ApiException`
 
 Custom exception that renders as a JSON response. Extends `Exception`.
 
 ### Usage
 
 ```php
-use Anil\FastApiCrud\Exceptions\ApiException;
+use Muku9812\FastApiCrud\Exceptions\ApiException;
 
 throw new ApiException('Resource not found', 404);
 throw new ApiException('Validation failed', 422);

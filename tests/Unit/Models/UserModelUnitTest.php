@@ -1,6 +1,6 @@
 <?php
 
-use Anil\FastApiCrud\Tests\TestSetup\Models\UserModel;
+use Muku9812\FastApiCrud\Tests\TestSetup\Models\UserModel;
 use Illuminate\Support\Facades\Schema;
 
 describe(description: 'user_model_class_unit_test', tests: function () {

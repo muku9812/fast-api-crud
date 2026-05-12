@@ -1,6 +1,6 @@
 <?php
 
-use Anil\FastApiCrud\Tests\TestSetup\Models\PostModel;
+use Muku9812\FastApiCrud\Tests\TestSetup\Models\PostModel;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Facades\Schema;

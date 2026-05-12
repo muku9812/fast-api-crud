@@ -1,16 +1,16 @@
 <?php
 
-namespace Anil\FastApiCrud\Tests;
+namespace Muku9812\FastApiCrud\Tests;
 
 use Muku9812\FastApiCrud\FastApiCrudServiceProvider;
-use Anil\FastApiCrud\Tests\TestSetup\Controllers\PostController;
-use Anil\FastApiCrud\Tests\TestSetup\Controllers\TagController;
-use Anil\FastApiCrud\Tests\TestSetup\Controllers\UserController;
-use Anil\FastApiCrud\Tests\TestSetup\Middleware\PermissionMiddleware;
-use Anil\FastApiCrud\Tests\TestSetup\Models\PermissionModel;
-use Anil\FastApiCrud\Tests\TestSetup\Models\PostModel;
-use Anil\FastApiCrud\Tests\TestSetup\Models\TagModel;
-use Anil\FastApiCrud\Tests\TestSetup\Models\UserModel;
+use Muku9812\FastApiCrud\Tests\TestSetup\Controllers\PostController;
+use Muku9812\FastApiCrud\Tests\TestSetup\Controllers\TagController;
+use Muku9812\FastApiCrud\Tests\TestSetup\Controllers\UserController;
+use Muku9812\FastApiCrud\Tests\TestSetup\Middleware\PermissionMiddleware;
+use Muku9812\FastApiCrud\Tests\TestSetup\Models\PermissionModel;
+use Muku9812\FastApiCrud\Tests\TestSetup\Models\PostModel;
+use Muku9812\FastApiCrud\Tests\TestSetup\Models\TagModel;
+use Muku9812\FastApiCrud\Tests\TestSetup\Models\UserModel;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Schema\Blueprint;
@@ -49,7 +49,7 @@ abstract class TestCase extends OrchestraTestCase
 
         Factory::guessFactoryNamesUsing(
             function (string $modelName): string {
-                return 'Anil\FastApiCrud\\Tests\\TestSetup\\Factories\\'.class_basename($modelName).'Factory';
+                return 'Muku9812\FastApiCrud\\Tests\\TestSetup\\Factories\\'.class_basename($modelName).'Factory';
             }
         );
         /** @var Application $app */

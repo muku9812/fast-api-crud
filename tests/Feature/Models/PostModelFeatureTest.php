@@ -1,9 +1,9 @@
 <?php
 
-use Anil\FastApiCrud\Tests\TestSetup\Models\PermissionModel;
-use Anil\FastApiCrud\Tests\TestSetup\Models\PostModel;
-use Anil\FastApiCrud\Tests\TestSetup\Models\TagModel;
-use Anil\FastApiCrud\Tests\TestSetup\Models\UserModel;
+use Muku9812\FastApiCrud\Tests\TestSetup\Models\PermissionModel;
+use Muku9812\FastApiCrud\Tests\TestSetup\Models\PostModel;
+use Muku9812\FastApiCrud\Tests\TestSetup\Models\TagModel;
+use Muku9812\FastApiCrud\Tests\TestSetup\Models\UserModel;
 
 describe(description: 'testing_post_model_factory', tests: function () {
     beforeEach(function () {

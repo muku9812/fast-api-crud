@@ -5,8 +5,8 @@
  * can detect them via runtime reflection during static analysis.
  */
 
-use Anil\FastApiCrud\Macros\BuilderMacros;
-use Anil\FastApiCrud\Macros\CollectionMacros;
+use Muku9812\FastApiCrud\Macros\BuilderMacros;
+use Muku9812\FastApiCrud\Macros\CollectionMacros;
 use Illuminate\Database\Eloquent\Builder;
 
 BuilderMacros::register();

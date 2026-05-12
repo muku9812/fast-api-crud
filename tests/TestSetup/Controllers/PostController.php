@@ -1,12 +1,12 @@
 <?php
 
-namespace Anil\FastApiCrud\Tests\TestSetup\Controllers;
+namespace Muku9812\FastApiCrud\Tests\TestSetup\Controllers;
 
-use Anil\FastApiCrud\Http\Controllers\BaseController;
-use Anil\FastApiCrud\Tests\TestSetup\Models\PostModel;
-use Anil\FastApiCrud\Tests\TestSetup\Requests\Post\StorePostRequest;
-use Anil\FastApiCrud\Tests\TestSetup\Requests\Post\UpdatePostRequest;
-use Anil\FastApiCrud\Tests\TestSetup\Resources\PostResource;
+use Muku9812\FastApiCrud\Http\Controllers\BaseController;
+use Muku9812\FastApiCrud\Tests\TestSetup\Models\PostModel;
+use Muku9812\FastApiCrud\Tests\TestSetup\Requests\Post\StorePostRequest;
+use Muku9812\FastApiCrud\Tests\TestSetup\Requests\Post\UpdatePostRequest;
+use Muku9812\FastApiCrud\Tests\TestSetup\Resources\PostResource;
 use Exception;
 
 class PostController extends BaseController

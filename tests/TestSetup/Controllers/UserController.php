@@ -1,12 +1,12 @@
 <?php
 
-namespace Anil\FastApiCrud\Tests\TestSetup\Controllers;
+namespace Muku9812\FastApiCrud\Tests\TestSetup\Controllers;
 
-use Anil\FastApiCrud\Http\Controllers\BaseController;
-use Anil\FastApiCrud\Tests\TestSetup\Models\UserModel;
-use Anil\FastApiCrud\Tests\TestSetup\Requests\User\StoreUserFormRequest;
-use Anil\FastApiCrud\Tests\TestSetup\Requests\User\UpdateUserFormRequest;
-use Anil\FastApiCrud\Tests\TestSetup\Resources\UserResource;
+use Muku9812\FastApiCrud\Http\Controllers\BaseController;
+use Muku9812\FastApiCrud\Tests\TestSetup\Models\UserModel;
+use Muku9812\FastApiCrud\Tests\TestSetup\Requests\User\StoreUserFormRequest;
+use Muku9812\FastApiCrud\Tests\TestSetup\Requests\User\UpdateUserFormRequest;
+use Muku9812\FastApiCrud\Tests\TestSetup\Resources\UserResource;
 use Exception;
 
 class UserController extends BaseController

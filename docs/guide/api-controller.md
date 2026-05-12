@@ -5,7 +5,7 @@
 ## Constructor
 
 ```php
-use Anil\FastApiCrud\Http\Controllers\BaseController;
+use Muku9812\FastApiCrud\Http\Controllers\BaseController;
 
 class PostController extends BaseController
 {

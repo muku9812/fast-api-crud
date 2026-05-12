@@ -48,7 +48,7 @@ This generates in one shot:
 
 namespace App\Http\Controllers;
 
-use Anil\FastApiCrud\Http\Controllers\BaseController;
+use Muku9812\FastApiCrud\Http\Controllers\BaseController;
 use App\Http\Requests\Post\StorePostRequest;
 use App\Http\Requests\Post\UpdatePostRequest;
 use App\Http\Resources\Post\PostResource;
