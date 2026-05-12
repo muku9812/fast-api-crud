@@ -45,7 +45,7 @@ composer require anil/fast-api-crud
 Publish the config file (optional):
 
 ```bash
-php artisan vendor:publish --provider="Anil\FastApiCrud\FastApiCrudServiceProvider" --tag=config
+php artisan vendor:publish --provider="Muku9812\FastApiCrud\FastApiCrudServiceProvider" --tag=config
 ```
 
 ---

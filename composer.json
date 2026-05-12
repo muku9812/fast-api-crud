@@ -1,5 +1,5 @@
 {
-  "name": "anil/fast-api-crud",
+  "name": "muku9812/fast-api-crud",
   "description": "A powerful Laravel package for building RESTful API CRUD operations with minimal boilerplate. Features pagination, filtering, sorting, soft deletes, permissions, lifecycle hooks, and more.",
   "keywords": [
     "laravel",

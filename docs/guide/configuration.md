@@ -3,7 +3,7 @@
 Publish the config file:
 
 ```bash
-php artisan vendor:publish --provider="Anil\FastApiCrud\FastApiCrudServiceProvider" --tag=config
+php artisan vendor:publish --provider="Muku9812\FastApiCrud\FastApiCrudServiceProvider" --tag=config
 ```
 
 ## Full Config Reference

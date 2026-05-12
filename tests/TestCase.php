@@ -2,7 +2,7 @@
 
 namespace Anil\FastApiCrud\Tests;
 
-use Anil\FastApiCrud\FastApiCrudServiceProvider;
+use Muku9812\FastApiCrud\FastApiCrudServiceProvider;
 use Anil\FastApiCrud\Tests\TestSetup\Controllers\PostController;
 use Anil\FastApiCrud\Tests\TestSetup\Controllers\TagController;
 use Anil\FastApiCrud\Tests\TestSetup\Controllers\UserController;
